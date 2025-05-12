@@ -2,7 +2,7 @@ import { statsBlocks } from "@/consts/StatsBlocks/StatsBlocks";
 import StatsBlock from "@components/StatsBlocks/StatsBlock";
 import { motion } from "framer-motion";
 
-import styles from "./StatsBlocks.module.scss";
+import styles from "./statsBlocks.module.scss";
 
 const StatsBlocks = () => {
   return (

@@ -2,7 +2,7 @@ import { socials } from "@/consts/Socials/socials";
 import { contentVariants } from "@/consts/animation/animation";
 import { motion } from "motion/react";
 
-import styles from "./JoinUsSection.module.scss";
+import styles from "./joinUsSection.module.scss";
 
 const JoinUsSection = () => {
   return (

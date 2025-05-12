@@ -1,7 +1,7 @@
 import ConfirmButton from "@components/common/buttons/ConfirmButton/ConfirmButton";
 import { motion } from "motion/react";
 
-import styles from "./LeaderboardHeader.module.scss";
+import styles from "./leaderboardHeader.module.scss";
 
 const LeaderboardHeader = () => {
   const contentVariants = {

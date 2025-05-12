@@ -2,7 +2,7 @@ import { contentVariants } from "@/consts/animation/animation";
 import ButtonLink from "@components/common/buttons/ButtonLink/ButtonLink";
 import { motion } from "framer-motion";
 
-import styles from "./AIMissionSection.module.scss";
+import styles from "./aiMissionSection.module.scss";
 
 const AIMissionSection = () => {
   return (

@@ -2,7 +2,7 @@ import AIMissionSection from "@/sections/AIMissionSection.tsx/AIMissionSection";
 import HeroSection from "@/sections/HeroSection/HeroSection";
 import LeaderboardSection from "@/sections/LeaderboardSection/LeaderboardSection";
 
-import styles from "./App.module.scss";
+import styles from "./app.module.scss";
 import CompaniesSection from "./sections/CompaniesSection/CompaniesSection";
 import FooterSection from "./sections/FooterSection/FooterSection";
 import JoinUsSection from "./sections/JoinUsSection/JoinUsSection";

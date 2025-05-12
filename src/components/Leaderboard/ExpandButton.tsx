@@ -1,5 +1,5 @@
-import styles from "./ExpandButton.module.scss";
 import TopIcon from "./IconsComponents/DownIcon";
+import styles from "./expandButton.module.scss";
 
 const ExpandButton = () => {
   return (

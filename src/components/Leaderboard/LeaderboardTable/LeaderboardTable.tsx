@@ -5,7 +5,7 @@ import {
 import { motion } from "motion/react";
 
 import ExpandButton from "../ExpandButton";
-import styles from "./LeaderboardTable.module.scss";
+import styles from "./leaderboardTable.module.scss";
 
 const LeaderboardTable = () => {
   const contentVariants = {

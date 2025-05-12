@@ -1,4 +1,4 @@
-import styles from "./StatsBlock.module.scss";
+import styles from "./statsBlock.module.scss";
 
 interface StatsBlockProps {
   title: string;

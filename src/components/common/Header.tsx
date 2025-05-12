@@ -1,5 +1,5 @@
-import styles from "./Header.module.scss";
 import ButtonLink from "./buttons/ButtonLink/ButtonLink";
+import styles from "./header.module.scss";
 
 const Header = () => {
   return (

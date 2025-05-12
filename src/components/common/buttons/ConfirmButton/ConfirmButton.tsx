@@ -1,4 +1,4 @@
-import styles from "@components/common/buttons/Button.module.scss";
+import styles from "@components/common/buttons/button.module.scss";
 
 interface ButtonProps {
   children: React.ReactNode;

@@ -1,0 +1,10 @@
+.leaderboardSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-inline: 40px;
+  height: 100vh;
+  scroll-snap-align: center;
+  overflow: hidden;
+}

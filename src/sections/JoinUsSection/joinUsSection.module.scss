@@ -1,0 +1,38 @@
+.joinUsSection {
+  color: var(--primary-color);
+  position: relative;
+  background-image: url("/images/join-us/moon.png");
+  background-size: 40% contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-inline: 40px;
+  height: 100vh;
+  scroll-snap-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    font-size: clamp(2rem, 10vw, 4rem);
+    font-family: "ClashGrotesk";
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  p {
+    max-width: 66ch;
+    font-size: clamp(1rem, 10vw, 1.5rem);
+  }
+
+  .socials {
+    display: flex;
+    gap: 16px;
+
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+}

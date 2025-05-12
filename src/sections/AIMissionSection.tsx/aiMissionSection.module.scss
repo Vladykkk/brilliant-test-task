@@ -1,0 +1,74 @@
+.aiMissionSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+  background-image: url("/images/hero/hero-section-bg.png");
+  background-size: contain;
+  background-position: 40% -100%;
+  background-repeat: no-repeat;
+  padding-inline: 40px;
+  height: 100vh;
+  scroll-snap-align: center;
+  overflow: hidden;
+
+  .aiMissionSectionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 10vw, 4rem);
+    font-weight: 500;
+    color: var(--primary-color);
+    margin: 0;
+    max-width: 30ch;
+    font-family: "ClashGrotesk";
+  }
+
+  .aiMissionSectionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    span {
+      color: var(--primary-color);
+      font-size: clamp(1rem, 10vw, 1.5rem);
+      margin: 0;
+      max-width: 80ch;
+    }
+
+    p {
+      font-size: clamp(1rem, 10vw, 1.5rem);
+      font-weight: 400;
+      color: var(--primary-color);
+      margin: 0;
+      max-width: 80ch;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    width: 20%;
+    height: 40%;
+    background: radial-gradient(
+      circle at left bottom,
+      #fc6f32 0%,
+      #ff4a59 60%,
+      transparent 80%
+    );
+    filter: blur(200px);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+}

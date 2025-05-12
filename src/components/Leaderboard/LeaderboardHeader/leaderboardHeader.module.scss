@@ -1,0 +1,29 @@
+.leaderboardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+
+  .leaderboardHeaderTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    h2 {
+      font-size: clamp(2rem, 10vw, 4rem);
+      font-weight: 500;
+      font-family: "ClashGrotesk";
+      color: var(--primary-color);
+      margin: 0;
+    }
+  }
+
+  p {
+    font-size: clamp(1rem, 10vw, 1.5rem);
+    font-weight: 400;
+    color: var(--primary-color);
+    margin: 0;
+  }
+}

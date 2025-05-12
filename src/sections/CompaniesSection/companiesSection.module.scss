@@ -1,0 +1,60 @@
+.companiesSection {
+  padding-inline: 40px;
+  height: 100svh;
+  scroll-snap-align: center;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/images/hero/hero-section-bg.png");
+  background-size: contain;
+  background-position: 40% -30%;
+  background-repeat: no-repeat;
+
+  h2 {
+    font-size: clamp(2rem, 10vw, 4rem);
+    font-weight: 500;
+    font-family: "ClashGrotesk";
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  .companiesCarousel {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    overflow-x: auto;
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 35%;
+    bottom: 20%;
+    width: 20%;
+    height: 60%;
+    background: radial-gradient(
+      circle at left bottom,
+      #fc6f32 0%,
+      #ff4a59 60%,
+      transparent 80%
+    );
+    filter: blur(250px);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+}

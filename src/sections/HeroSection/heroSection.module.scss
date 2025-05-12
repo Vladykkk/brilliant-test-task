@@ -1,0 +1,80 @@
+.heroSection {
+  position: relative;
+  background-image: url("/images/hero/hero-section-bg.png");
+  background-size: 20% cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding-inline: 40px;
+  scroll-snap-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .heroContentWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+
+  h1 {
+    font-size: clamp(4rem, 10vw, 8rem);
+    margin-bottom: 1.5rem;
+    max-width: 70ch;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "ClashGrotesk";
+    background: linear-gradient(to right, #ffd6f9, #ffcbb4, #ffbec3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    width: 20%;
+    height: 30%;
+    background: radial-gradient(
+      circle at left bottom,
+      #fc6f32 0%,
+      #ff4a59 60%,
+      transparent 80%
+    );
+    filter: blur(200px);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.heroContentWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}

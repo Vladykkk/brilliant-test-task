@@ -1,0 +1,46 @@
+.button {
+  max-width: fit-content;
+  color: #fff;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #963488, #fc6f32, #ff4a59) border-box;
+  background-color: #fff;
+  border-radius: 91px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+
+  &:hover {
+    background:
+      linear-gradient(to right, #963488, #fc6f32, #ff4a59) padding-box,
+      linear-gradient(to right, #963488, #fc6f32, #ff4a59) border-box;
+    color: #fff;
+  }
+}
+
+.button-lg {
+  padding-inline: 48px;
+  padding-block: 24px;
+  font-size: 24px;
+}
+
+.button-md {
+  padding-inline: 24px;
+  padding-block: 16px;
+  font-size: 18px;
+}
+
+.noBorder {
+  border: none;
+  background: none;
+  padding-inline: 0;
+
+  &:hover {
+    background: linear-gradient(to right, #963488, #fc6f32, #ff4a59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+}

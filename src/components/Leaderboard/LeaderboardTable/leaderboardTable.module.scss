@@ -1,0 +1,52 @@
+.leaderboardTableContainer {
+  overflow-x: auto;
+}
+
+.leaderboardTable {
+  color: var(--primary-color);
+  border-collapse: collapse;
+  margin-bottom: 32px;
+  width: 100%;
+
+  th {
+    font-size: 16px;
+    color: #8f99b0;
+    font-weight: 600;
+    text-align: end;
+    padding-block: 22.5px;
+  }
+
+  td {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-align: end;
+    padding-inline: 24px;
+    padding-block: 26.5px;
+  }
+
+  thead {
+    th:nth-child(3) {
+      text-align: start;
+    }
+
+    th {
+      padding-inline: 24px;
+    }
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background-color: #c9d9ff14;
+    }
+
+    td:nth-child(3) {
+      text-align: start;
+    }
+  }
+}
+
+.expandButtonContainer {
+  display: flex;
+  justify-content: end;
+}

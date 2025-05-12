@@ -1,0 +1,30 @@
+.statsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 32px;
+  border-radius: 91px;
+  background: linear-gradient(
+      to right,
+      rgba(150, 52, 136, 0.1),
+      rgba(252, 111, 50, 0.1),
+      rgba(255, 74, 89, 0.1)
+    )
+    border-box;
+
+  h3 {
+    font-size: clamp(2rem, 10vw, 4rem);
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: clamp(1rem, 10vw, 1.5rem);
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+  }
+}

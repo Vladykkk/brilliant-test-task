@@ -1,0 +1,58 @@
+@import "normalize.css";
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src:
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Regular.woff2") format("woff2"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Regular.woff") format("woff"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ClashGrotesk";
+  src:
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Medium.woff2") format("woff2"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Medium.woff") format("woff"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ClashGrotesk";
+  src:
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Semibold.woff2")
+      format("woff2"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Semibold.woff") format("woff"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Semibold.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ClashGrotesk";
+  src:
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Bold.woff2") format("woff2"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Bold.woff") format("woff"),
+    url("@assets/fonts/ClashGrotesk/ClashGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary-color: #fff;
+}
